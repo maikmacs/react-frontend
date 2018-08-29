@@ -1,0 +1,13 @@
+@import '../../colors.scss';
+
+.btn-login {
+  background-color: $ACCENT_COLOR;
+  color: $TEXT_COLOR;
+  border: 1px solid $ACCENT_COLOR;
+  padding: 0.8 rem, 1.2 rem;
+
+  &:hover {
+    background-color: transparent;
+    color: $PRIMARY_TEXT;
+  }
+}
